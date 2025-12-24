@@ -1,4 +1,5 @@
 # original github link
+本项目基于2025/12/24的版本
 https://github.com/haoheliu/audioldm_eval
 
 # Audio Generation Evaluation

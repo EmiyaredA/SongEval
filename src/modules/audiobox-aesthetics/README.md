@@ -1,3 +1,7 @@
+# original github link
+本项目基于2025/12/24的版本
+https://github.com/facebookresearch/audiobox-aesthetics.git
+
 # audiobox-aesthetics
 
 [![PyPI - Version](https://img.shields.io/pypi/v/audiobox-aesthetics)](https://pypi.org/project/audiobox-aesthetics/) [![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/facebook/audiobox-aesthetics)

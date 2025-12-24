@@ -1,3 +1,6 @@
+# original github link
+https://github.com/haoheliu/audioldm_eval
+
 # Audio Generation Evaluation
 
 This toolbox aims to unify audio generation model evaluation for easier future comparison.
@@ -6,6 +9,22 @@ This toolbox aims to unify audio generation model evaluation for easier future c
 
 First, prepare the environment
 ```shell
+pip install git+https://github.com/haoheliu/audioldm_eval
+```
+
+AI 推荐做法
+```shell
+# 1. 先创建环境
+conda create -n audioldm_env python=3.9 -y
+conda activate audioldm_env
+
+# 2. 先手动装 GPU 版 Torch (根据你的 CUDA 版本，这里以 11.8 为例)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# 3. 安装 ffmpeg (音频解码必备)
+conda install -c conda-forge ffmpeg -y
+
+# 4. 最后再安装这个工具
 pip install git+https://github.com/haoheliu/audioldm_eval
 ```
 
